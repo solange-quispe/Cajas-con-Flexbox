@@ -1,0 +1,39 @@
+ {
+	box-sizing: border-box;
+	margin: 0;
+}
+p {
+	color: red;
+	font-size: 20px;
+
+}
+.rebelde {
+	color: blue;
+}
+div {
+	width: 50%;
+	height: 80px;
+	background-color: lightpink;
+	overflow: auto;
+	float: left;
+	padding-left: 10%;
+	box-sizing: border-box; 
+	/*CON ESTE ATRIBUTO ME OBVIA EL PADDING, PERO EL MARGIN SI ME LO TOMA*/
+	border:1px solid black;
+	outline: 2px dotted red; /*ME HACE EL BORDE PUNTUADO, ES UN BORDE EXTERIOR*/
+	margin-top: 10px;
+}
+#cuadro {
+	width: 100%;
+	height: 90px; /*ES LO QUE OCUPA UN LOREM*/
+	border width: 5em 2%; 
+	border-color: blue red green yellow; /*ESTO VA EN SENTIDO DE LAS AGUJAS DEL RELOJ */
+	border-style: solid outset inset;
+
+}	
+/*p {
+	font font-family: arial, sans-serif; font-size: 12px; font-weight: bold;
+}*/
+/*p{
+	font: bol 12px arial, sans-serif;
+}*/
